@@ -1,0 +1,27 @@
+Source: golang-github-free5gc-openapi
+Maintainer: Louis Royer <louis.royer@irit.fr>
+Uploaders: Louis Royer <louis.royer@irit.fr>
+Section: golang
+Testsuite: autopkgtest-pkg-go
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any,
+	       golang-github-antihax-optional-dev,
+	       golang-github-golang-jwt-jwt-dev,
+	       golang-github-mitchellh-mapstructure-dev,
+	       golang-github-stretchr-testify-dev,
+	       golang-golang-x-net-dev,
+	       golang-golang-x-oauth2-dev,
+	       golang-gopkg-h2non-gock.v1-dev
+Standards-Version: 4.5.0
+Vcs-Browser: https://github.com/louisroyer-deb/golang-github-free5gc-openapi
+Vcs-Git: https://githib.com/louisroyer-deb/golang-github-free5gc-openapi
+Homepage: https://github.com/free5gc/openapi
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/free5gc/openapi
+
+Package: golang-github-free5gc-openapi-dev
+Architecture: all
+Depends: ${misc:Depends}
+Description: openapi of 5G Core (library)
