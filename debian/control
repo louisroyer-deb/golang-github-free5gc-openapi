@@ -10,9 +10,10 @@ Build-Depends: debhelper-compat (= 13),
 	       golang-github-antihax-optional-dev,
 	       golang-github-golang-jwt-jwt-dev,
 	       golang-github-mitchellh-mapstructure-dev,
+	       golang-github-pkg-errors-dev,
 	       golang-github-stretchr-testify-dev,
 	       golang-golang-x-net-dev,
-	       golang-golang-x-oauth2-dev,
+	       golang-golang-x-oauth2-google-dev,
 	       golang-gopkg-h2non-gock.v1-dev
 Standards-Version: 4.5.0
 Vcs-Browser: https://github.com/louisroyer-deb/golang-github-free5gc-openapi
