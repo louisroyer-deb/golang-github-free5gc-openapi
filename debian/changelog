@@ -1,3 +1,45 @@
+golang-github-free5gc-openapi (1.0.6-1) bookworm; urgency=medium
+
+  [ mariakagi ]
+  * Add error in Nsmf_PDUSession (#4)
+
+  [ ShouheiNishi ]
+  * Fix data race in NewAPIClient functions (#5)
+
+  [ free5gc-org ]
+  * not set cfg client and use innerHTTP2Client
+
+  [ ubroit ]
+  * Query parameters - check if empty added for string (#6)
+
+  [ eggegg31415 ]
+  * Add oauth verify code (#8)
+
+  [ Tim Liu ]
+  * add common methods
+  * update github action go.yml
+  * update github go action with matrix
+
+  [ eggegg31415 ]
+  * improve oauth check (#9)
+
+  [ Tim Liu ]
+  * upgrade go version to 1.17 in go.mod
+
+  [ dependabot[bot] ]
+  * Bump golang.org/x/text from 0.3.6 to 0.3.8 (#10)
+
+  [ brianchennn ]
+  * Add OpenAPI for Traffic Influence (#11)
+
+  [ dependabot[bot] ]
+  * Bump golang.org/x/net from 0.0.0-20210805182204-aaa1db679c0d to 0.7.0 (#12)
+
+  [ Louis Royer ]
+  * Update to Bookworm
+
+ -- Louis Royer <louis.royer@irit.fr>  Sun, 11 Jun 2023 16:59:18 +0200
+
 golang-github-free5gc-openapi (1.0.4-1) bullseye; urgency=medium
 
   * Initial release
